@@ -86,7 +86,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: terraform init
-      - run: terraform apply -auto-approve -target=module.backend
+      - run: terraform apply -auto-approve "-target=module.backend"
 
   # Runs on Laptop B
   deploy-frontend:
@@ -99,4 +99,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: terraform init
-      - run: terraform apply -auto-approve -target=module.frontend
+      - run: terraform apply -auto-approve "-target=module.frontend"
