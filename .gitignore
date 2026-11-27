@@ -24,10 +24,3 @@ terraform.tfstate
 terraform.tfstate.backup
 *.tfstate.*
 *.tfvarste
-
-# GitHub Actions self-hosted runner
-/actions-runner/
-
-# Python coverage and mutation testing
-.coverage
-.mutmut-cache
