@@ -26,7 +26,7 @@ def test_register_participant_to_event_integration():
     # 1. Create Event
     e_resp = client.post("/events/", json={
         "title": "Cybersecurity Workshop", "location": "NTIC",
-        "date": "2026-11-15", "capacity": 50
+        "date": "2029-11-15", "capacity": 50
     })
     event_id = e_resp.json()["id"]
 

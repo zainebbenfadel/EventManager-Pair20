@@ -17,3 +17,10 @@ venv/
 # Editors
 .vscode/
 .idea/
+
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+*.tfvarste

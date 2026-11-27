@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "zainebbenfadel/EventManager-Pair20",
+  "pipelineDirectory": "EventManager-Pair20",
+  "workspaceDirectory": "EventManager-Pair20\\EventManager-Pair20",
+  "repositories": {
+    "zainebbenfadel/EventManager-Pair20": {
+      "repositoryPath": "EventManager-Pair20\\EventManager-Pair20",
+      "lastRunOn": "11/14/2026 07:59:43 +01:00"
+    }
+  },
+  "lastRunOn": "11/14/2026 08:02:38 +01:00"
+}
