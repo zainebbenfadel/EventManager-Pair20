@@ -13,10 +13,13 @@ provider "kubernetes" {
 }
 
 module "backend" {
-  source = "./modules/backend"
+  source          = "./modules/backend"
+  docker_username = var.docker_username
+
 }
 
 module "frontend" {
   source      = "./modules/frontend"
   laptop_a_ip = var.laptop_a_ip
 }
+
