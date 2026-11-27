@@ -1,0 +1,1 @@
+variable "laptop_a_ip" { type = string }
