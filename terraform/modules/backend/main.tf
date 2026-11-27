@@ -25,7 +25,7 @@ resource "kubernetes_deployment" "backend-deployment" {
         security_context {
           run_as_user     = 1000
           run_as_non_root = true
-          fs_group        = 1000   # lets UID 1000 write to the PVC
+          fs_group        = 1000 # lets UID 1000 write to the PVC
         }
         container {
           name  = "backend"
