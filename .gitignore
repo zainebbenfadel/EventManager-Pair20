@@ -23,6 +23,16 @@ venv/
 terraform.tfstate
 terraform.tfstate.backup
 *.tfstate.*
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
 *.tfvars
 
+# GitHub Actions self-hosted runner
 actions-runner/
+
+# Python coverage and mutation testing
+.coverage
+.mutmut-cache
