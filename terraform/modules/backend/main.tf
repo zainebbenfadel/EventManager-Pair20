@@ -29,7 +29,7 @@ resource "kubernetes_deployment" "backend-deployment" {
         }
         container {
           name  = "backend"
-          image = "${var.docker_username}/eventmanager-backend:latest"
+          image = "zaiiiineb/eventmanager-backend:latest"
 
           port { container_port = 8000 }
 
