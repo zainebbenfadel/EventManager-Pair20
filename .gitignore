@@ -23,4 +23,6 @@ venv/
 terraform.tfstate
 terraform.tfstate.backup
 *.tfstate.*
-*.tfvarste
+*.tfvars
+
+actions-runner/
