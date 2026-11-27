@@ -9,7 +9,7 @@
 
   <script>
     async function loadEvents() {
-      const res = await fetch('http://localhost:8000/events/');
+      const res = await fetch('http://100.101.226.103/events/');
       const events = await res.json();
       document.getElementById('eventList').innerHTML =
         events.map(e => `<li>${e.title} - ${e.location}</li>`).join('');
